@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:ital,wght@1,300&family=Playfair+Display:ital@1&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
+*{
+   
+    box-sizing: border-box;
+   
+}
+
+/*
+.container{
+    padding: 20px;
+    margin: 30px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+    background-color: rgb(46, 204, 209);
+    color: white;
+}
+
+.ajustar{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 500px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.negro:hover{
+    color: rgb(105, 43, 206);
+    display: block;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-size:  1em;
+
+    margin-left: 10px;
+
+}
+
+ul{
+    margin-left: 10px;
+}
+
+.lista > li{
+   margin-left: 0;
+   margin-right: auto;
+  
+
+}
+
+
+.border{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+
+}
+
+.border2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* .boxes{
+    
+} */
+/*
+.cajaImagen{
+    width: 10%;
+    padding: 0;
+ 
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+    width: auto;
+    height: auto;
+}
+
+.caja1{
+    background-color: aqua;
+    font-family: 'Playfair Display', serif;
+    
+}
+.caja2{
+    background-color: rgb(97, 97, 228);
+    font-family: 'Lora', serif;
+    
+}
+.caja3{
+    background-color: deeppink;
+    
+    
+}
+.caja4{
+    background-color: chartreuse;
+}
+.caja5{
+    background-color: coral;
+}
+
+.imgwhs{
+    width: 10%;
+    height: 10%;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+}
+
+.iconos{
+    margin-top: 100px;
+    width: 30%;
+    height: 30%;
+}
+*/
+
+.contenedorprincipal{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+#maquina-escribir1 {
+    display: inline-block;
+    font-size: 15px;
+    border-right: 2px solid rgb(255, 255, 255);
+    margin: 0;
+    font-family: monospace;
+    white-space: nowrap;
+    color: white;
+
+    height: 20px;
+    animation: blink .40s infinite step-end alternate;
+    overflow:hidden;
+    
+  }
+  @keyframes blink {
+    50% { border-color: transparent;
+       }
+   }
+
+  #maquina-escribir4 {
+    display: inline;
+    border-right: 3px solid black;
+  }
+
+  .btn1{
+    margin-top: 90px;
+    
+
+    
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+/*margin:0 0.3em 0.3em 0;*/
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+    
+  }
+  
+  
+
+
+  .btn1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+
+#nav1{
+    padding-right: 46%;
+    margin-right: -145px;
+    
+}
+
+#login{
+    width: 100%;
+  height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.titulo1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contenedor1{
+   margin: 0px 20% 200px 20%;
+   display: flex;
+   
+   align-items: center;
+   flex-direction: row;
+
+  
+    
+}
+.contenedor-imagen{
+   max-width: 400px;
+   min-width: 300px;
+  
+    
+    
+}
+
+
+img{
+    max-width: 100%;
+   
+    height: auto;
+}
+ h1::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #0498e8;
+   
+    left: calc(50% - 25px);
+}
+.contenedortexto{
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    
+   
+    
+    
+}
+/*.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0498e8;
+  }*/
+
+  
+  /*
+  border-left: 2px solid #0498e8;
+  */
+
+  
+/* ------------------------------------------------------------------------------------------------- */
+#cv1{
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+.cont2{
+    width: 300px;
+    background-color: aqua;
+    
+    
+}
+.caja1{
+    content: "";
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    right:  50px;
+    bottom: 100px;
+    
+    background: #fff;
+    border: 2px solid #0498e8;
+    
+    
+}
+.cont2{
+    
+    right:  59px;
+    bottom: 10px;
+    border-left: 2px solid #0498e8;
+    position: relative;
+    height: 165px;
+    background-color: blueviolet;
+    
+}
+.contenedorP1{
+   margin-top: 100px;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Raleway", sans-serif;
+}
+h1{
+    
+    text-align: center;
+    
+    font-size: 32px;
+    
+}
+.contenedorP1 h2{
+   
+    font-size: 1.25rem;
+    
+    margin: 35px 0px;
+}
+h3{
+        font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+h4{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #026295;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 16px;
+    background: #e9f7fe;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0498e8;
+}
+
+.imgCaja{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin-bottom: 36px;
+    
+}
+.contenedorIcon i, .imgCaja{
+    margin-left: 20px;
+    font-size: 50px;
+}
+.aaa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.cajaEducacion{
+    display: inline-block;
+    
+
+    
+    
+}
+.cajaExperiencia{
+    display: inline-block;
+    
+    margin-left: 50px;
+    width: 700px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.tituh1{
+    margin: 30px 0px;
+}
+
+.c1{
+  
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+.c2{
+    
+    width: 600px;
+    
+    margin: 10px;
+}
+.c2 a{
+    padding-bottom: 10px;
+}
+.c2 p{
+    padding-top: 10px;
+}
+.c2 h2{
+    font-size: 1.50rem;
+}
+.ctn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+/* -----------------------------------------------------------------------------------------------------------------------*/
+
+.principal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloContacto{
+    margin: 30px 0px;
+}
+
+.iconos img{
+    width: 30px;
+}
+
+.iconos a{
+    color: #000000;
+  text-decoration: none;
+  
+}
+
+.iconos p{
+ display: inline-block;
+ margin-top: 15px;
+ 
+}
+
+
+
+
+
+/*
+
+.resume_data .year:before{
+    
+    
+}
+
+.resume_data .year:after{
+	content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+*/
+/*
+
+
+ @media only screen and (max-width:800px){
+    .caja3{
+        background-color: black;
+    }
+    .border{
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width:1200px){
+ 
+} 
+
+.contenedorprincipal{
+    background-color: black;
+    
+    
+}
+
+.contenedorPresentacion{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    
+    
+    
+}
+
+.p { 
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 98ch;
+    height: 20px;
+    
+    
+    animation: typing 5.5s steps(98), blink .40s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyframes typing {
+        
+    from { width: 0;}
+    }
+    
+    @keyframes blink {
+     50% { border-color: transparent;
+        }
+    }
+
+.p1{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 98ch;
+    height: 20px;
+}
