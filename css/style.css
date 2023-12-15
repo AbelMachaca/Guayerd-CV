@@ -7,129 +7,10 @@
    
 }
 
-/*
-.container{
-    padding: 20px;
-    margin: 30px;
+.navbar{
+    position: sticky;
+    top: 0;
 }
-
-
-h1{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;;
-    background-color: rgb(46, 204, 209);
-    color: white;
-}
-
-.ajustar{
-    background-color: aqua;
-    margin: 0 auto;
-    width: 500px;
-    border-style: solid;
-    border-radius: 16px;
-}
-
-.negro:hover{
-    color: rgb(105, 43, 206);
-    display: block;
-}
-
-img{
-    width: 100%;
-    height: auto;
-}
-
-p{
-    font-size:  1em;
-
-    margin-left: 10px;
-
-}
-
-ul{
-    margin-left: 10px;
-}
-
-.lista > li{
-   margin-left: 0;
-   margin-right: auto;
-  
-
-}
-
-
-.border{
-    
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    
-
-}
-
-.border2{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    font-family: 'Noto Sans', sans-serif;
-}
-
-/* .boxes{
-    
-} */
-/*
-.cajaImagen{
-    width: 10%;
-    padding: 0;
- 
-}
-
-.encabezado{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: coral;
-    width: auto;
-    height: auto;
-}
-
-.caja1{
-    background-color: aqua;
-    font-family: 'Playfair Display', serif;
-    
-}
-.caja2{
-    background-color: rgb(97, 97, 228);
-    font-family: 'Lora', serif;
-    
-}
-.caja3{
-    background-color: deeppink;
-    
-    
-}
-.caja4{
-    background-color: chartreuse;
-}
-.caja5{
-    background-color: coral;
-}
-
-.imgwhs{
-    width: 10%;
-    height: 10%;
-}
-.facebook{
-    width: 40px;
-    height: 40px;
-}
-
-.iconos{
-    margin-top: 100px;
-    width: 30%;
-    height: 30%;
-}
-*/
 
 .contenedorprincipal{
     background-color: black;
@@ -138,6 +19,7 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
   
 }
 
@@ -184,7 +66,6 @@ ul{
     
   }
   
-  
 
 
   .btn1:hover{
@@ -198,13 +79,15 @@ ul{
     margin-right: -145px;
     
 }
-
+#quienSoy{
+    
+    
+}
 #login{
     width: 100%;
-  height: calc(100vh - 56px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  
+  
   
   
 }
@@ -256,67 +139,27 @@ img{
     
     
 }
-/*.resume .resume-item::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #fff;
-    border: 2px solid #0498e8;
-  }*/
-
-  
-  /*
-  border-left: 2px solid #0498e8;
-  */
 
   
 /* ------------------------------------------------------------------------------------------------- */
 #cv1{
     width: 100%;
-    height: calc(100vh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 30px;
+    
+    
    
     
 }
-.cont2{
-    width: 300px;
-    background-color: aqua;
-    
-    
-}
-.caja1{
-    content: "";
-    position: relative;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    right:  50px;
-    bottom: 100px;
-    
-    background: #fff;
-    border: 2px solid #0498e8;
-    
-    
-}
-.cont2{
-    
-    right:  59px;
-    bottom: 10px;
-    border-left: 2px solid #0498e8;
-    position: relative;
-    height: 165px;
-    background-color: blueviolet;
-    
-}
-.contenedorP1{
-   margin-top: 100px;
+
+
+
+#cvv{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   
+   
 }
 h1,h2,h3,h4,h5{
     font-family: "Raleway", sans-serif;
@@ -328,7 +171,7 @@ h1{
     font-size: 32px;
     
 }
-.contenedorP1 h2{
+#cvv h2{
    
     font-size: 1.25rem;
     
@@ -372,23 +215,24 @@ h5{
 }
 .aaa{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     margin-top: 20px;
+    
+   
 }
 .cajaEducacion{
     display: inline-block;
-    
+    max-width: 500px;
 
     
     
 }
 .cajaExperiencia{
     display: inline-block;
+    max-width: 500px;
+    margin-left: 100px;
     
-    margin-left: 50px;
-    width: 700px;
 }
-
 
 
 
@@ -396,24 +240,25 @@ h5{
 /*----------------------------------------------------------------------------------------------------------*/
 
 
-
+#proyectos{
+    height: 100vh;
+    
+}
 
 .tituh1{
     margin: 30px 0px;
 }
 
 .c1{
-  
-    width: 500px;
-    height: 300px;
+    
     margin: 10px;
 }
 
 .c2{
     
-    width: 600px;
-    
+    max-width: 500px;
     margin: 10px;
+    margin-left: 60px;
 }
 .c2 a{
     padding-bottom: 10px;
@@ -426,17 +271,22 @@ h5{
 }
 .ctn1{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center ;
     
+    
+}
+
+.c2 h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 18;
 }
 
 
 
 /* -----------------------------------------------------------------------------------------------------------------------*/
 
-.principal1{
+#contacto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -449,6 +299,17 @@ h5{
 
 .iconos img{
     width: 30px;
+}
+
+.iconos{
+    display: flex;
+   justify-content: space-between;
+}
+
+.iconos div{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .iconos a{
@@ -465,90 +326,74 @@ h5{
 
 
 
-
-
-/*
-
-.resume_data .year:before{
+  form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
     
-    
-}
+  }
 
-.resume_data .year:after{
-	content: "";
-    position: absolute;
-    top: 17px;
-    right: 4px;
-    width: 3px;
-    height: 90%;
-    background: #0175b2;
-}
-*/
-/*
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .buttonForm {
+    background-color: #0498e8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button:hover {
+    background-color: #045be8;
+  }
 
 
- @media only screen and (max-width:800px){
-    .caja3{
-        background-color: black;
-    }
-    .border{
-        width: 100%;
-    }
-
-    
-}
-
-@media only screen and (max-width:1200px){
- 
-} 
-
-.contenedorprincipal{
-    background-color: black;
-    
-    
-}
-
-.contenedorPresentacion{
-   
+#quienSoy,
+#cvv,
+#proyectos,
+#contacto {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    
-    
-    
+    justify-content: center;
+    height: auto;
+    padding: 60px 0;
 }
 
-.p { 
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 2px solid;
-    width: 98ch;
-    height: 20px;
-    
-    
-    animation: typing 5.5s steps(98), blink .40s infinite step-end alternate;
-    overflow:hidden;
-    }
-    
-    @keyframes typing {
-        
-    from { width: 0;}
-    }
-    
-    @keyframes blink {
-     50% { border-color: transparent;
-        }
-    }
 
-.p1{
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 2px solid;
-    width: 98ch;
-    height: 20px;
+.zxc{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.asd{
+    display: flex;
+    flex-direction: row;
 }

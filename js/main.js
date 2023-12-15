@@ -15,7 +15,7 @@ const maquinaEscribir1 = (text = '',tiempo = 200, etiqueta = '') => {
   }
 
 
-  maquinaEscribir1("Hola! Soy Abel Machaca, developer Frontend en proceso de FullStack :)  ",70, maquina1)
+  maquinaEscribir1("Hola! Soy Abel Machaca, developer Fullstack con conocimientos de desarrollo en Salesforce  ",70, maquina1)
 
 
 
